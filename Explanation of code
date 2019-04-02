@@ -1,0 +1,18 @@
+do_turn(game)- put values in the globals and call to "SortElves" and "WhatToCreate"
+SortElves - put the targets of the elves in the dictionary "mapElves" and in the global dictionary "mapElvesPerTurns" 
+
+in the dictionary - 
+the keys: elves
+the values - targets
+
+the mana:
+WhatToCreate - get the priorities and decide what to do , this function is recursion for use in all the mana we can if there is no rasone
+to save mana
+
+all the handles:
+check the situations and:
+if for_check is True return priority
+else: create and return True/False 
+
+sorry about the bad english we write in the middle of the night - ;) 
+Shilo,Amit,Shoham.
