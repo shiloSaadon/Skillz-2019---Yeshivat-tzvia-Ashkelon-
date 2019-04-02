@@ -1,7 +1,7 @@
 do_turn(game)- put values in the globals and call to "SortElves" and "WhatToCreate"
 SortElves - put the targets of the elves in the dictionary "mapElves" and in the global dictionary "mapElvesPerTurns" 
 
-in the dictionary - 
+in the dictionary "mapElves" and in the global dictionary "mapElvesPerTurns" - 
 the keys: elves
 the values - targets
 
